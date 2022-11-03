@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Recibir el link a tu Whatsapp para escucharlo de primeras 
+          Recibir el link a tu Whatsapp para escucharlo de primera 
         </a>
       </header>
     </div>
