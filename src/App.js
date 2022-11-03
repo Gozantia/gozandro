@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './gozandro.png';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> Yes bitch.
+        Álbum debut: Domingo, 20 de noviembre de 2022, 7:00 p.m - 8:00 p.m. (GMT-5) 
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Recibir el link a tu Whatsapp para escucharlo de primeras 
         </a>
       </header>
     </div>
