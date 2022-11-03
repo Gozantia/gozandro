@@ -2,7 +2,7 @@
   text-align: center;
 }
 .App p {
-    max-width:  calc(400px + 2vmin)
+    max-width:  calc(576px + 2vmin)
 }
 .App-logo {
   height: 40vmin;
