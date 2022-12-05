@@ -44,7 +44,7 @@ function App() {
         </div>
 
       <div className="titulo">
-      ¡Escucha mi nuevo album debut!
+      ¡Escucha mi album debut!
       <img src={logo} className="App-logo" alt=" Gozandro Parker" />
     
       </div>
