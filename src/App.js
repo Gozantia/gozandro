@@ -1,24 +1,66 @@
-import logo from './gozandro.png';
+
+ import logo from './gozandro.png';
+import cover from './cover_gozandro_parker.jpg';
+import you from './youtube.webp';
+import spot from './spotify.webp';
+import apple from './apple.webp';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Álbum debut: Domingo, 20 de noviembre de 2022, 7:00 p.m - 8:00 p.m. (GMT-5) 
-        </p>
+        <img src={cover} className="App-logo" alt="cover Gozandro Parker" />
+      
+      </header>
+      <div  className="links-container"> 
         <a
-          className="App-link"
-          href="https://forms.gle/aT6TVDXYhxiunNcx5"
+          className="App-link "
+          href="https://www.youtube.com/watch?v=X05sFe6Fp04&list=OLAK5uy_laRld86QIgFR8KdjHvhIdeC-YqoDA8_Vs&index=2"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Recibir el link a tu Whatsapp para escucharlo de primera 
+        <img src={you} alt="cover Gozandro Parker" />
+        </a> 
+
+        <a
+          className="App-link"
+          href="https://open.spotify.com/album/0yHTPhMaS5UhFXceh4KM0S?si=BOyjNErMRimg9LZdroVYLg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <img src={spot} alt="cover Gozandro Parker" />
         </a>
-      </header>
+
+        <a
+          className="App-link "
+          href="https://music.apple.com/us/artist/gozandro-parker/1656872128"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <img src={apple} alt="cover Gozandro Parker" />
+        </a>
+        </div>
+
+      <div className="titulo">
+      ¡Escucha mi nuevo album debut!
+      <img src={logo} className="App-logo" alt=" Gozandro Parker" />
+    
+      </div>
+
+      <div className="subtitulo">
+      <a
+          className="App-link "
+          href="https://www.instagram.com/gozandroparker/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Instacream    </a>
+      </div>
+
     </div>
+
   );
 }
 
