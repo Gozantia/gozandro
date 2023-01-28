@@ -56,7 +56,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        Instacream    </a>
+        Instagram   </a>
       </div>
 
     </div>
