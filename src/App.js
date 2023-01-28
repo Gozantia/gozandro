@@ -56,11 +56,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-<<<<<<< HEAD
         Instagram   </a>
-=======
-        Instacream    </a>
->>>>>>> 1fdbdc45ee908f6899da84368303c1d28124b6db
       </div>
 
     </div>
