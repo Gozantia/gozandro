@@ -7,6 +7,10 @@ import {
 } from "react-router-dom";
 
 import Content from './Content';
+import spot from './spotify.webp';
+import apple from './apple.webp';
+import you from './youtube.webp';
+
 
 export default function App() {
   return (
@@ -39,18 +43,57 @@ export default function App() {
 
         <div> 
           <h4>
-            Créditos y agradecimientos:
+            Créditos:
           </h4><p>
             Creación: Santiago Gutiérrez  <br />
-            Productor: Jhoan Cadavid  <br />
-            Mezcla y Mastering: Kevin Martinez <br />
-            Arte: Rose Plateau
+            Producción: Jhoan Cadavid  <br />
+            Mezcla y masterización: Kevin Martinez <br />
+            Arte portada: Rose Plateau
             </p>
             <h4>
             Agradecimientos:
           </h4><p>
-            A mis queridos tíos y tías, a mis amigos que también ahora son otras tías, a mis muertos, a nadie.
+            A mis queridos tíos y tías, a mis amigos que también ahora son otras tías, a mis muertos, a mis papás y a las mascotas de mis amigos.
+
           </p>
+
+          <a
+        className="App-link "
+        href="https://www.instagram.com/gozandroparker/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      Sígueme en Instagram   </a>
+
+      <div  className="links-container"> 
+      <a
+        className="App-link "
+        href="https://www.youtube.com/watch?v=X05sFe6Fp04&list=OLAK5uy_laRld86QIgFR8KdjHvhIdeC-YqoDA8_Vs&index=2"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      <img src={you} alt="cover Gozandro Parker" />
+      </a> 
+
+      <a
+        className="App-link"
+        href="https://open.spotify.com/album/0yHTPhMaS5UhFXceh4KM0S?si=BOyjNErMRimg9LZdroVYLg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      <img src={spot} alt="cover Gozandro Parker" />
+      </a>
+
+      <a
+        className="App-link "
+        href="https://music.apple.com/us/artist/gozandro-parker/1656872128"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      <img src={apple} alt="cover Gozandro Parker" />
+      </a>
+      </div>
+
         </div>
         </header>
         <Content />
