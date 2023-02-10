@@ -4,16 +4,48 @@ main {
   min-height: 100vh;
 display: flex;
 }
+.portada {
+  max-height: 100vh;
+  display: flex;
+  gap: 10px;
+  flex-direction: column-reverse;  
+}
 
-header {
-  flex: 1;
-  padding: 20px 40px;
+
+@media only screen and (min-width: 1080px) { 
+.portada {
+  flex-direction: row;}
+}
+
+
+.introduction {
+
+  padding: 40px 0 0 20px;
+  display: grid; 
 }
 
 .cover {
-  position: absolute;
-  top: 0;
-  right: 0;
+  flex: none;
+
+}
+
+.cover img {
+  max-width: 100%;
+  float: left;
+}
+
+
+
+@media only screen and (min-width: 1080px) { 
+.cover img {
+  max-height: 100vh;
+  float: left;
+  max-width: auto;
+}
+}
+.navi {
+position: absolute;
+z-index: 3;
 }
 
 .App {
@@ -60,11 +92,6 @@ header {
 }
 
 
-img.App-logo {
-  width: auto;
-  height: 99.4vh;
-}
-
 .links-container {
 
     width: 80%;
@@ -101,7 +128,12 @@ img.App-logo {
 }
 
 
+.container {
 
+    padding: 50px;
+      display: flex;
+      justify-content: space-around;
+}
 
 @keyframes logo-ani {
   0% {
@@ -161,11 +193,7 @@ top: 190px;
 
 
 /* transition animations on blocks */
-#presentation {
-  position: relative;
-  display: flex;
-  flex: 1;
-}
+
 
 #presentation.fadeIn {
   animation: 0.4s presentationFadeIn forwards;
@@ -206,11 +234,70 @@ top: 190px;
 
 #almendra {
   position: absolute;
-  top: 200px;
-  left: 200px;
-  background-color: rgba(255, 255, 255, 0.85);
-  width: 480px;
+
 }
+
+.contenido {
+
+  position: relative;
+  padding: 20px;
+  background: rgba(255,255, 255, 0.1);
+  border-radius: 7px;
+  text-align: justify;
+  margin: auto;
+  margin-top: -15px;
+  overflow-y: auto;
+}
+
+.introduction .contenido {
+  max-height:173px;
+  width: 60%;
+}
+
+@media only screen and (min-width: 1080px) { 
+.introduction .contenido {
+  max-height:273px;
+  width: 60%;
+}
+}
+.conte {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+
+.conte nav {
+ display: grid;
+    align-content: center;
+    gap: 10px;
+}
+
+.conte nav a {
+  text-decoration: none;
+  font-size: 4.5vw;
+  color: #faeef8;
+}
+
+@media only screen and (min-width: 1080px) {
+  
+  .contenido {
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+  }
+  .conte nav a {
+
+    font-size: 2vw;
+
+  }
+  
+
+
+}
+
 
 #almendra.fadeIn {
   animation: 0.4s almendraFadeIn forwards;

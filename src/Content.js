@@ -42,12 +42,13 @@ const Content= () => {
         if (location !== displayLocation) setTransistionStage("fadeOut");
     }, [location, displayLocation]);
 
-    const handleAnimationEnd = (event) => {
+    const handleAnimationEnd = () => {
         if (transitionStage === "fadeOut") {
             setTransistionStage("fadeIn");
             setDisplayLocation(location);
         }
     }
+
 
     return(    
         <> 
@@ -56,7 +57,7 @@ const Content= () => {
                 <div
                     key={index}
                     id={Road.id}
-                    className={`${transitionStage}`}
+                    className={`${transitionStage}` } 
                     onAnimationEnd={handleAnimationEnd}
                 >
                     <Routes location={displayLocation}>
