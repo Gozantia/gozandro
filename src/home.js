@@ -3,6 +3,7 @@ import cover from './cover_gozandro_parker.jpg';
 import spot from './spotify.webp';
 import apple from './apple.webp';
 import you from './youtube.webp';
+import gozandroLogo from './gozandro_logo.png'
 import {
   Link
 } from "react-router-dom";
@@ -20,10 +21,14 @@ const Home = () => {
         
       <div className ="conte">
         <div className="contenido"> 
-          <h1>Acerca de Gozandro Parker</h1> 
+          <span className="title"style={{ opacity: 0, position: "absolute" } }><h1>Gozandro Parker</h1></span> 
+          
+    <div className="gozandroLogo"> 
+      <img src={gozandroLogo} alt="cover Gozandro Parker" />
                   <p>
                   Este disco reúne algunas canciones que escribí del 2017 al 2022 que superaron mis cambios de ánimo y  a las cuales perdoné todos sus errores. Hacer este trabajo fue una especie de reto- experimento – exorcismo. 
                   </p>
+     </div>
                   <p>
                   Hacerlo surgió de la idea de liberarse de las cosas viejas para encontrar las nuevas, un nuevo avatar con el que me despido de ideas viajas para estar más presente en lo de ahora. 
                   </p>
@@ -57,13 +62,7 @@ const Home = () => {
         <Link to="/canciones/el-hombre-cosmico"> Vos Me ayudas </Link>
       </nav>
       </div>
-     <div>      <a
-        className="App-link "
-        href="https://www.instagram.com/gozandroparker/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-      Sígueme en Instagram   </a> 
+     <footer>     
 
       <div  className="links-container"> 
 
@@ -91,16 +90,32 @@ const Home = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-      <img src={apple} alt="cover Gozandro Parker" />
+      <img src={apple} alt=" Gozandro Parker Apple Music" />
       </a>
       </div>
-      
+      <div><a
+        className="App-link "
+        href="https://www.instagram.com/gozandroparker/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >  @gozandroparker   </a> 
+
+<a
+        className="App-link "
+        href="gozandroparker@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      > Correo </a> 
+
     </div>
+    </footer>
+    
     </div>
     <div className="cover">
       <img src={cover} alt="cover Gozandro Parker" />
   </div>
-   </section> 
+  
+       </section> 
   };
   
   export default Home;

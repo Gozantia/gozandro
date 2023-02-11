@@ -11,7 +11,22 @@ display: flex;
   flex-direction: column-reverse;  
 }
 
+a {
+  text-decoration: none;
+  color: #faeef8;
+  font-weight: bold;
+  letter-spacing: 1.5px;  
+  text-shadow: 0.5px 1px 0px #c95577;
+  transition: 0.2s;
+}
+a:hover {
+  color: #5a0320;
+  text-shadow: 0.5px 1px 0px #faeef8;
+}
 
+footer {
+  text-align: center;
+}
 @media only screen and (min-width: 1080px) { 
 .portada {
   flex-direction: row;}
@@ -20,10 +35,19 @@ display: flex;
 
 .introduction {
 
-  padding: 40px 0 0 20px;
+  padding: 0 20px 10px;
   display: grid; 
+  align-content: center;
 }
 
+@media only screen and (min-width: 1080px) {  
+
+  .introduction {
+
+    padding: 40px 0 0 20px;
+  }
+
+}
 .cover {
   flex: none;
 
@@ -71,14 +95,8 @@ z-index: 3;
   padding: 0 20px;
 }
 
-.App-link {
-  color: #4b0e67;
-  font-weight: bold;
-}
-.App-link:hover {
-  color: #5a0320;
-  font-weight: bold;
-}
+
+
 @keyframes App-logo-spin {
   0% {
     transform: scale(0.96) ;
@@ -96,7 +114,6 @@ z-index: 3;
 
     width: 80%;
     margin: 0 auto;
-    padding: 10px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -191,6 +208,21 @@ top: 190px;
 
 }
 
+.gozandroLogo {
+
+    display: flex;
+  flex-direction: column;
+}
+.gozandroLogo img{
+  max-width: 50%;
+}
+
+@media only screen and (min-width: 1080px) {  
+
+  .gozandroLogo {
+    flex-direction: row;
+}
+}
 
 /* transition animations on blocks */
 
@@ -256,9 +288,9 @@ top: 190px;
 
 @media only screen and (min-width: 1080px) { 
 .introduction .contenido {
-  max-height:273px;
+  max-height:266px;
   width: 60%;
-}
+} 
 }
 .conte {
   display: flex;
@@ -266,6 +298,20 @@ top: 190px;
   gap: 10px;
 }
 
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
 
 
 .conte nav {
@@ -275,9 +321,8 @@ top: 190px;
 }
 
 .conte nav a {
-  text-decoration: none;
-  font-size: 4.5vw;
-  color: #faeef8;
+  font-size: 3vw;
+
 }
 
 @media only screen and (min-width: 1080px) {
