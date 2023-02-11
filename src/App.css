@@ -2,13 +2,29 @@ main {
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   min-height: 100vh;
-display: flex;
+  display: flex;
+  flex-direction: column;  
+  justify-content: flex-start;
+}
+@media only screen and (min-width: 1080px) { 
+  main {
+    justify-content:  center;
+  }    
 }
 .portada {
-  max-height: 100vh;
   display: flex;
   gap: 10px;
-  flex-direction: column-reverse;  
+  flex-direction: column-reverse;
+  padding-bottom: 15px;  
+}
+
+@media only screen and (min-width: 1080px) { 
+  .portada {
+    flex-direction: row;
+    width: 1080px;
+    margin: auto;
+    padding-bottom: 100px;
+  }
 }
 
 a {
@@ -26,10 +42,9 @@ a:hover {
 
 footer {
   text-align: center;
-}
-@media only screen and (min-width: 1080px) { 
-.portada {
-  flex-direction: row;}
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
 }
 
 
@@ -39,18 +54,21 @@ footer {
   display: grid; 
   align-content: center;
 }
-
+.cover { 
+  padding: 40px 40px 60px; 
+}
 @media only screen and (min-width: 1080px) {  
 
   .introduction {
 
     padding: 40px 0 0 20px;
+    flex: 1.3;
   }
-
-}
-.cover {
-  flex: none;
-
+  .cover {
+    float: left;
+    flex: 1;
+    padding: 0; 
+  }
 }
 
 .cover img {
@@ -62,16 +80,21 @@ footer {
 
 @media only screen and (min-width: 1080px) { 
 .cover img {
-  max-height: 100vh;
   float: left;
-  max-width: auto;
 }
 }
 .navi {
 position: absolute;
 z-index: 3;
+width: 100%;
+top: 0;
+right: 0;
+display: flex;
+flex-wrap: wrap;
 }
-
+.navi a{
+  padding: 20px;
+}
 .App {
   text-align: center;
 }
@@ -150,7 +173,17 @@ z-index: 3;
     padding: 50px;
       display: flex;
       justify-content: space-around;
+      max-width: 759px;
+      margin: auto;
 }
+.container .letra {
+  flex: 1;
+} 
+.container .contenido {
+  flex: 1.5;
+  max-height: 200px;
+} 
+
 
 @keyframes logo-ani {
   0% {
@@ -209,20 +242,15 @@ top: 190px;
 }
 
 .gozandroLogo {
-
-    display: flex;
-  flex-direction: column;
+  text-align: center;
 }
+
+
 .gozandroLogo img{
   max-width: 50%;
+  height: max-content;
 }
 
-@media only screen and (min-width: 1080px) {  
-
-  .gozandroLogo {
-    flex-direction: row;
-}
-}
 
 /* transition animations on blocks */
 
@@ -264,10 +292,6 @@ top: 190px;
 }
 
 
-#almendra {
-  position: absolute;
-
-}
 
 .contenido {
 
@@ -289,7 +313,7 @@ top: 190px;
 @media only screen and (min-width: 1080px) { 
 .introduction .contenido {
   max-height:266px;
-  width: 60%;
+  width: 85%;
 } 
 }
 .conte {
@@ -321,7 +345,7 @@ top: 190px;
 }
 
 .conte nav a {
-  font-size: 3vw;
+  font-size: 2.3vw;
 
 }
 
@@ -335,7 +359,7 @@ top: 190px;
   }
   .conte nav a {
 
-    font-size: 2vw;
+    font-size: 1.3vw;
 
   }
   

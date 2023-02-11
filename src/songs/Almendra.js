@@ -2,8 +2,8 @@
 
 const Almendra = () => {
     return <> 
-   <section>
-        <div class="container">
+   <section class="container">
+      
     <div className="letra">
       <h2>Almendra</h2>
         <p>
@@ -36,9 +36,7 @@ Hubo un tiempo en que caminábamos mucho por el Quitasol, que es el cerro más a
 
     </p>
     </article>
-    </div>
     </section>
-
     </>
   };
   
