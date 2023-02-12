@@ -94,9 +94,19 @@ right: 0;
 display: flex;
 flex-wrap: wrap;
 }
+
 .navi a{
-  padding: 20px;
+  padding: 10px;
+  font-size: 15px;
+
 }
+@media only screen and (min-width: 1080px) {  
+  .navi a{
+    padding: 20px;
+    font-size: 18px;
+  }
+
+ }
 .App {
   text-align: center;
 }
@@ -213,6 +223,12 @@ figure video {
     flex: 1.5;
     max-height: 355px;
   } 
+  #año-viejo .container .letra {
+    max-height: 415px;
+  }
+  #año-viejo .container .contenido {
+    max-height: 415px;
+  }
 
 }
  figure img {
@@ -399,11 +415,11 @@ top: 190px;
 
 
 
-#almendra.fadeIn, #año-viejo.fadeIn {
+#almendra.fadeIn, #año-viejo.fadeIn,  #el-asteroide.fadeIn, #charlie-parker.fadeIn, #vos-me-ayudas.fadeIn, #el-turismo-menguo.fadeIn, #los-vidrios.fadeIn, #el-hombre-cosmico.fadeIn  {
   animation: 0.4s almendraFadeIn forwards;
 }
 
-#almendra.fadeOut, #año-viejo.fadeOut {
+#almendra.fadeOut, #año-viejo.fadeOut, #el-asteroide.fadeOut,  #charlie-parker.fadeOut,#vos-me-ayudas.fadeOut, #el-turismo-menguo.fadeOut, #los-vidrios.fadeOut, #el-hombre-cosmico.fadeOut {
   animation: 0.4s almendraFadeOut forwards;
 }
 

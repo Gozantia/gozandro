@@ -7,7 +7,12 @@ import {
 import Home from "./home";
 import Almendra from "./songs/Almendra";
 import Año_Viejo from "./songs/Anio-viejo";
-
+import El_asteroide from "./songs/El-asteroide";
+import Charlie_parker from "./songs/Charlie-Parker";
+import El_hombre_cosmico from "./songs/El-hombre-cosmico";
+import El_turismo_menguo from "./songs/El-turismo-menguo";
+import Los_vidrios from "./songs/Los-vidrios";
+import Vos_me_ayudas from "./songs/Vos-me-ayudas";
 const roads = [
     {
         path: '/',
@@ -32,6 +37,48 @@ const roads = [
         animation: 'año-viejo',
         Component: Año_Viejo
     }
+    ,
+    {
+        path: '/canciones/el-asteroide',
+        id: 'el-asteroide',
+        animation: 'almendra',
+        Component: El_asteroide
+    },
+    {
+        path: '/canciones/charlie-parker',
+        id: 'charlie-parker',
+        animation: 'almendra',
+        Component: Charlie_parker
+    }
+    ,
+    {
+        path: '/canciones/el-hombre-cosmico',
+        id: 'hombre-cosmico',
+        animation: 'almendra',
+        Component: El_hombre_cosmico
+    }
+    ,
+    {
+        path: '/canciones/el-turismo-menguo',
+        id: 'el-turismo-menguo',
+        animation: 'almendra',
+        Component: El_turismo_menguo
+    }
+    ,
+    {
+        path: '/canciones/los-vidrios',
+        id: 'los-vidrios',
+        animation: 'almendra',
+        Component: Los_vidrios
+    }
+    ,
+    {
+        path: '/canciones/vos-me-ayudas',
+        id: 'vos-me-ayudas',
+        animation: 'almendra',
+        Component: Vos_me_ayudas
+    }
+    
 ]
 
 const Content= () => {

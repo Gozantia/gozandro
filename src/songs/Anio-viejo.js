@@ -5,7 +5,7 @@ const Año_Viejo = () => {
    <section class="container">
    <figure>
 
-   <video width="236" height="420" src={anio_viejo_vid} controls autoPlay={true} loop={true} >
+   <video width="236" height="420" src={anio_viejo_vid} controls autoPlay={true} loop={true} muted >
     Your browser does not support the video tag.
     </video>
 
@@ -59,7 +59,7 @@ Y no tomamos chorro e’ paraco.<br />
     </h3>
 
     <p>
-   en San Calletano-Aranjuez, el Otto tocaba Juan Galindo, la historia de un man que iba de pueblo en pueblo, y desde muy lejos, buscando un remedio para el pie de atleta, era una canción llanera que nunca supe si se la inventó o era de sábados felices, el caso es que ahí aprendí la  progresión que utilizo para la introducción qué es bastante punk también aunque no sé por qué me acuerda a la canción del comercial de Marlboro.
+   en San Calletano-Aranjuez, el Otto tocaba Juan Galindo, la historia de un man que iba de pueblo en pueblo, y desde muy lejos, buscando un remedio para el pie de atleta, era una canción llanera que nunca supe si se la inventó o era de sábados felices, el caso es que ahí aprendí la  progresión que utilizo para la introducción qué es bastante punk también aunque no sé por qué me acuerda a <a href="https://www.youtube.com/watch?v=T1OVpzRXFBc" target="_blank" rel="noreferrer"> la canción del comercial de Marlboro.</a>
     <br /><br />
  La cosa es que yo estaba tocando la guitarra y mi tía me pide que haga un registro sonoro de lo que ocurría ya que no estaba ayudando propiamente a nada, era 31 de diciembre al mediodía. Ellos estaban pelando y picando verduras en el corredor y haciendo y prendiendo el fogón con adobes y leña en el jardín (de día casi no se ven las llamas). Ese día fuimos mi papá y yo a coger mandarinas y limones a la casa de los primos y cuando volvimos mi tía nos tomó una foto. Pasó un día muy soleado también y recuerdo que todos tuvieron que almorzar vegetariano porque el mondongo nunca ablandó. Ya en mi casa después, fui haciendo bien la letra y pensaba en lo loca y perdida que es mi familia, ya desdibujada y caricaturizada por el tiempo, por el infinito negro donde nuestra voz no alcanza. 
  <br /><br />

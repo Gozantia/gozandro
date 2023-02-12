@@ -5,7 +5,7 @@ import you from './youtube.webp';
 const Footer = () => { 
     return <> 
     <footer>     
-    <div>Escúchalo hoy en:</div>
+    <div>Escúchalo mientras lees:</div>
     <div  className="links-container"> 
 
     <a

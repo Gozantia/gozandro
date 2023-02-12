@@ -30,7 +30,7 @@ const Almendra = () => {
     <article className="contenido">
       <h3>
 
-      Acerca de la gordis
+        Acerca de la gordis
     </h3>
 
     <p>
