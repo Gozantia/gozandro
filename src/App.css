@@ -1,7 +1,9 @@
+
+
 main {
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  min-height: 100vh;
+  min-height: 100vh ;
   display: flex;
   flex-direction: column;  
   justify-content: flex-start;
@@ -170,20 +172,53 @@ flex-wrap: wrap;
 
 .container {
 
-    padding: 50px;
+    padding: 10px 0;
       display: flex;
       justify-content: space-around;
-      max-width: 759px;
+      max-width: 1080px;
       margin: auto;
+      gap: 10px;
+      flex-wrap: wrap;
 }
 .container .letra {
-  flex: 1;
-} 
+  flex: 1 1;
+  max-height: 203px;
+  overflow-y: scroll;
+  padding: 10px 20px;
+}
+
 .container .contenido {
   flex: 1.5;
-  max-height: 200px;
+  max-height: 203px;
+  padding: 10px 20px;
 } 
+figure  {
+  text-align: center;
+  margin:0;
+  width: 100%;
+}
+figure video { 
+  width: 100%;
+}
+@media only screen and (min-width: 1080px) {  
+  figure  {
+    flex: 1.5;
+  }
+  .container .letra {
+    flex: 2;
+    padding: 0;
+    max-height: 355px;
+  }
+  .container .contenido {
+    flex: 1.5;
+    max-height: 355px;
+  } 
 
+}
+ figure img {
+    width: 100%;
+    margin: 0;
+ }
 
 @keyframes logo-ani {
   0% {
@@ -252,46 +287,6 @@ top: 190px;
 }
 
 
-/* transition animations on blocks */
-
-
-#presentation.fadeIn {
-  animation: 0.4s presentationFadeIn forwards;
-}
-
-#presentation.fadeOut {
-  animation: 0.4s presentationFadeOut forwards;
-}
-
-@keyframes presentationFadeIn {
-  from {
-      opacity: 0;
-      transform: translate(-20px, -20px);
-      transform: scale(0);
-      transform-origin: top right;
-  }
-  to {
-      opacity: 1;
-      transform: translate(0px, 0px);
-      transform: scale(1);
-  }
-}
-
-@keyframes presentationFadeOut {
-  from {
-      opacity: 1;
-      transform: translate(0, 0);
-      transform: scale(1);
-      transform-origin: bottom right;
-  }
-  to {
-      opacity: 0;
-      transform: translate(-20px, -20px);
-      transform: scale(0);
-  }
-}
-
-
 
 .contenido {
 
@@ -345,7 +340,7 @@ top: 190px;
 }
 
 .conte nav a {
-  font-size: 2.3vw;
+  font-size: 2.7vw;
 
 }
 
@@ -368,38 +363,66 @@ top: 190px;
 }
 
 
-#almendra.fadeIn {
+/* transition animations on blocks */
+
+
+#presentation.fadeIn {
+  animation: 0.4s presentationFadeIn forwards;
+}
+
+#presentation.fadeOut {
+  animation: 0.4s presentationFadeOut forwards;
+}
+
+@keyframes presentationFadeIn {
+  from {
+      opacity: 0;
+
+  }
+  to {
+      opacity: 1;
+
+  }
+}
+
+@keyframes presentationFadeOut {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}
+
+
+
+
+
+
+#almendra.fadeIn, #año-viejo.fadeIn {
   animation: 0.4s almendraFadeIn forwards;
 }
 
-#almendra.fadeOut {
+#almendra.fadeOut, #año-viejo.fadeOut {
   animation: 0.4s almendraFadeOut forwards;
 }
 
 @keyframes almendraFadeIn {
   from {
       opacity: 0;
-      transform: translate(-20px, -20px);
-      transform: scale(0);
-      transform-origin: top left;
+
   }
   to {
       opacity: 1;
-      transform: translate(0px, 0px);
-      transform: scale(1);
   }
 }
 
 @keyframes almendraFadeOut {
   from {
       opacity: 1;
-      transform: translate(0, 0);
-      transform: scale(1);
-      transform-origin: bottom left;
   }
   to {
       opacity: 0;
-      transform: translate(-20px, -20px);
-      transform: scale(0);
+
   }
 }

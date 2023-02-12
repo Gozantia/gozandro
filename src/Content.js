@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./home";
 import Almendra from "./songs/Almendra";
-
+import Año_Viejo from "./songs/Anio-viejo";
 
 const roads = [
     {
@@ -25,6 +25,12 @@ const roads = [
         id: 'almendra',
         animation: 'almendra',
         Component: Almendra
+    },
+    {
+        path: '/canciones/año-viejo',
+        id: 'año-viejo',
+        animation: 'año-viejo',
+        Component: Año_Viejo
     }
 ]
 
