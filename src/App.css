@@ -318,7 +318,8 @@ top: 190px;
 }
 
 .introduction .contenido {
-  max-height: calc(40vh - 79px);
+  margin: 0 0 0 20px;
+  padding: 20px 10px;
   width: 60%;
 }
 
@@ -416,6 +417,13 @@ figure video {
   width: 100%;
   max-height: 274px;
 }
+
+.contenido article {
+  overflow-y: auto;
+  max-height: calc(34vh - 79px);
+  padding-right: 10px;
+}
+
 
 }
 
