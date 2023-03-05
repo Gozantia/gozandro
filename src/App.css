@@ -189,14 +189,14 @@ justify-content: space-between;
 }
 .container .letra {
   flex: 1 1;
-  max-height: 203px;
+  max-height: calc(50vh - 80px);
   overflow-y: scroll;
   padding: 10px 20px;
 }
 
 .container .contenido {
   flex: 1.5;
-  max-height: 203px;
+  max-height: calc(50vh - 80px);
   padding: 10px 20px;
 } 
 figure  {
@@ -396,7 +396,8 @@ top: 190px;
   }
   figure {
     height: 271px;
-    
+    mask-image: linear-gradient(to bottom, transparent 0%, black 34%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 34%);
 }
 
 figure img {
@@ -427,7 +428,7 @@ figure video {
 
 .contenido article {
   overflow-y: auto;
-  max-height: calc(34vh - 79px);
+  max-height: calc(40vh - 80px);
   padding-right: 10px;
 }
 
@@ -449,6 +450,13 @@ main {
   }
   .container {
     padding-top: 83px;
+  }
+
+  .container .letra { 
+    margin-right: 20px;
+  }
+  .container .contenido { 
+    margin-left: 20px;
   }
 }
 /* transition animations on blocks */
