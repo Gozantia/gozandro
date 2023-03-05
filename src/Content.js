@@ -81,25 +81,6 @@ const roads = [
     
 ]
 
-
-// Seleccionar todos los elementos que se les desea agregar la clase
-var elements = document.querySelectorAll("article");
-
-// Añadir un event listener para el evento scroll
-window.addEventListener("scroll", function() {
-  // Iterar sobre cada elemento
-  elements.forEach(function(element) {
-    // Comprobar si la posición del scroll es mayor que la posición del elemento
-    if (window.scrollY > element.offsetTop) {
-      // Agregar la clase "scroll" al elemento
-      element.classList.add("scrollgradient");
-    } else {
-      // Si la posición del scroll es menor que la posición del elemento, eliminar la clase "scroll"
-      element.classList.remove("scrollgradient");
-    }
-  });
-});
-
 const Content= () => {
     // use location hook
     const location = useLocation();
