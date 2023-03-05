@@ -20,7 +20,7 @@ const Home = () => {
           <span className="title"style={{ opacity: 0, position: "absolute" } }><h1>Gozandro Parker</h1></span> 
           
       <div className="gozandroLogo" > <img src={gozandroLogo} alt="cover Gozandro Parker" /> </div>
-      
+                <article>
                   <p>
                   Este disco reúne canciones que escribí del 2017 al 2022, que superaron mis cambios de ánimo y a las cuales perdoné todos sus errores. La idea de este trabajo fue justamente esa, una especie de reto- experimento – exorcismo para liberarse de las cosas viejas e intentar encontrar las nuevas en mi re-encuentro con la música, una conciliación, una tregua. 
                   </p>
@@ -55,6 +55,8 @@ const Home = () => {
             A mis queridos tíos y tías, a mis amigos que también ahora son otras tías, a mis muertos, a mis papás y a las mascotas de mis amigos.
 
           </p>
+          </article>  
+
           </div>
           
       

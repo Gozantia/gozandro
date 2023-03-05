@@ -52,12 +52,12 @@ footer {
 
 .introduction {
 
-  padding: 0 20px 10px;
+  padding: 0;
   display: grid; 
   align-content: center;
 }
 .cover { 
-  padding: 40px 40px 60px; 
+  padding: 20px; 
 }
 @media only screen and (min-width: 1080px) {  
 
@@ -318,7 +318,7 @@ top: 190px;
 }
 
 .introduction .contenido {
-  max-height:173px;
+  max-height: calc(40vh - 79px);
   width: 60%;
 }
 
