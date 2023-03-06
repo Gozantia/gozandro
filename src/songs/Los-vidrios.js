@@ -43,17 +43,15 @@ Con los vidrios.<br/>
     </div>
     <article className="contenido">
       <h3>
-
-      Acerca de  Los Vidrios
+          Circulando por las aulas del INEM
     </h3>
 
     <p>
-    Cuándo le mostré esta canción a mi productor, por más pretencioso que suene, me contó una historia de cuando él era pelado.
+    Cuándo le mostré esta canción a mi productor le recordó una historia de unos vidrios, qué no tiene nada que ver pero en el fondo me identifiqué.
     <br/><br/>
-    Estaba deambulando por la villa tarde de la noche con los amiguitos del INEM (un colegio grande del que hay en varias ciudades del país), y se encontraron unos vidrios arrumados y empezaron a quebrar uno por uno hasta que les salió un indigente todo puto porque eran de él. El man los iba era a ñalear pero ellos le dijeron que no les hiciera nada, que viera que eran solo unos estudiantes del Inem.  Resultó entonces que el indigente también había estudiado allá y terminaron entonando algunas notas del himno del colegio que comienza con “Somos el porvenir”.  
+    Era algo así cómo que estaba andando tarde de la noche con los compañeros del colegio, y se encontraron unos vidrios arrumados y no sé porqué empezaron a quebrarlos hasta que les salió un habitante de calle todo puto porque eran suyos. El man los iba era a ñalear pero ellos le dijeron que viera que eran unos <a href="https://www.youtube.com/watch?v=TTVgF2cc0t4" target ="_blank" rel="noreferrer">pelaos tranquilos</a> del Inem.  Resultó entonces que el habitante de calle les respondíó entonando el himno que comienza con “Somos el porvenir” y mis amigos siguieron con el siguiente verso cantando juntos, en un aire de reconciliación y familiaridad.  
     <br/><br/>
-Volviendo a la canción en sí, quise buscar algo garaje para la guitarra, solo quintas y pentatónica, la melodía de la voz es Jazz y la letra surge de una carta que nunca envié a una amiga que actualmente está en rehabilitación, quiero que sepas que estamos muy orgullosos de ti, si lees esto.
-
+    Volviendo a la canción, todo parte de <a href="https://www.youtube.com/watch?v=TTVgF2cc0t4" target ="_blank" rel="noreferrer"> April en Paris </a> la pentatónica en la guitarra y la historía de una amiga <a href="https://www.youtube.com/watch?v=TTVgF2cc0t4" target ="_blank" rel="noreferrer">hibristofílica </a>. Siempre se escriben cartas que nunca se envían, está si se envió así sea para no decir nada nuevo.
     </p>
     </article>
     </section>

@@ -95,7 +95,7 @@ de la hubildad<br />
         <br />
          Ya no creo en los <a href="https://www.poeticous.com/raul-gomez-jattin/si-las-nubes-no-anticipan-en-sus-formas-la-historia-de-los-hombres?locale=es" target="_blank" rel="noopener noreferrer"  >“ángeles clandestinos" </a> que reza Gómez Jattin.
           <br />  <br />Con los años se van derrumbando esas estructuras estúpidas que aprendemos en la TV, así como esas hostilidades inocuas de la adolescencia y van quedando algunos faros, alguien que aunque no ves mucho, te hace sentir un poco vos mismo con todo lo reconfortante e incómodo que acarree, la vida es más brillante por pequeños instantes y ya no se posa con tanta fatiga el pie en ese paseo.
-         <br />  <br /> Entonces sin importar cómo haya seguido después, se siente bien saber que al menos algo pasó en la vida, que conociste a alguien que en algún momento te mostró lo ingenuo e idiota, creep, weirdo que fuiste, pero no para hundirte en el lodo o victimizarte, sino para hacerte levantar el trasero y ver una cosa nueva en otro lugar. 
+         <br />  <br /> Entonces sin importar cómo haya seguido después, se siente bien saber que al menos algo pasó en la vida, que conociste a alguien que en algún momento te mostró lo ingenuo e idiota y weirdo que fuiste, pero no para hundirte en el lodo o victimizarte, sino para hacerte levantar el trasero y ver una cosa nueva en otro lugar. 
 
     </p>
     </article>
